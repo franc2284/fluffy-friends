@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 1080px;
+    background-color: #ECECEC;
+}
+
+.container {
+    width: 400px;
+    height: 814px;
+    margin-top: 133px;
+    padding: 24px;
+    left: 256px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px 0px #0000001F;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+}
+
+.title{
+    margin: 0;
+    font-family: 'Palanquin Dark', system-ui, sans-serif;;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
