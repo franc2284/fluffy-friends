@@ -115,6 +115,7 @@ body{
     flex-direction: column;
     justify-content: center;
 }
+
 .iconka {
     position: absolute;
     display: flex;
@@ -125,7 +126,7 @@ body{
     left: 150px;
     gap: 4px;
 }
-}
+
 
 .iconka img {
     width: 16px;
@@ -139,4 +140,45 @@ body{
   font-size: 22px;
   line-height: 100%;
   color: #06172C;
+}
+
+.iconka_2 {
+    position: absolute;
+    width: 157px;
+    height: 48px;
+    top: 57px;
+    left: 150px;
+}
+
+.name_2 {
+    margin: 5px 0 10px 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #06172C99;
+}
+
+.distance {
+   position: absolute;
+   display: flex;
+   align-items: center;
+   top: 97px;
+   left: 150px;
+   gap: 2px;
+}
+
+.distance__icon {
+   width: 16px;
+   height: 16px;
+}
+
+.distance__text {
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 21px;
+   color: #06172C;
+   letter-spacing: 0;
 }
