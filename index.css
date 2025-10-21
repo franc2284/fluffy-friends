@@ -182,3 +182,14 @@ body{
    color: #06172C;
    letter-spacing: 0;
 }
+
+.heart{
+    position: absolute;
+    top: 59px;
+    left: 328px;
+}
+
+.heart_2{
+    width: 16px;
+    height: 16px;
+}
