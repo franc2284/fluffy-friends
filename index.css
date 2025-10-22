@@ -193,3 +193,45 @@ body{
     width: 16px;
     height: 16px;
 }
+
+.block_2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 360px;
+    height: 134px;
+    top: 325px;
+    left: 20px;
+    gap: 12px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px 0px #0000001F;
+}
+
+.block_3 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 360px;
+    height: 134px;
+    top: 483px;
+    left: 20px;
+    gap: 12px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px 0px #0000001F;
+}
+
+.block_4 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 360px;
+    height: 134px;
+    top: 641px;
+    left: 20px;
+    gap: 12px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px 0px #0000001F;
+}
