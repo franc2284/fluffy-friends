@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    width: 1440px;
+    height: 1080px;
+    background-color: #ECECEC;
+}
+
+.container{
+    position: relative;
+    width: 400px;
+    height: 814px;
+    top: 133px;
+    left: 827px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px 0px #0000001F;
+}
