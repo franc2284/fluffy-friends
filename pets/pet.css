@@ -93,3 +93,27 @@ body{
     line-height: 100%;
     color: #06172C99;
 }
+
+.distance {
+   position: absolute;
+   display: flex;
+   align-items: center;
+   top: 481px;
+   right: 16px;
+   gap: 2px;
+}
+
+.distance__icon {
+   width: 16px;
+   height: 16px;
+}
+
+.distance__text {
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 21px;
+   color: #06172C;
+   letter-spacing: 0;
+}
