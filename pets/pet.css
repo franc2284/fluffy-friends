@@ -146,3 +146,24 @@ body{
   color: #06172C;
   text-align: center;
 }
+
+.bloc {
+  position: absolute;
+  width: 369px;
+  height: 78px;
+  top: 620px;
+  left: 16px;
+}
+
+.description {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #06172C;
+}
+
+.description span {
+  color: #FF1C7B;
+  cursor: pointer;
+}
