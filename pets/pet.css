@@ -167,3 +167,51 @@ body{
   color: #FF1C7B;
   cursor: pointer;
 }
+
+.knopka1{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 133px;
+  height: 51px;
+  top: 742px;
+  left: 16px;
+  border-radius: 8px;
+  padding: 12px 10px 12px 10px;
+  gap: 8px;
+  background-color: #EBEDEF;
+}
+
+.k1 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #06172C;
+}
+
+.knopka2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 221px;
+  height: 51px;
+  top: 742px;
+  right: 16px;
+  border-radius: 8px;
+  padding: 12px 10px 12px 10px;
+  gap: 8px;
+  background-color: #FF1C7B;
+}
+
+.k2 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
