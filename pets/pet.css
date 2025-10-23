@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    width: 1440px;
+    height: 1080px;
+    background-color: #ECECEC;
+}
+
+.container{
+    position: relative;
+    width: 400px;
+    height: 814px;
+    margin: 133px auto 0;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px 0px #0000001F;
+    overflow: hidden;
+}
+
+.dog_img {
+    position: relative;
+    width: 400px;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.dog_img__photo {
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+    display: block;
+}
+
+.icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    z-index: 2;
+}
+
+.icon--back {
+    top: 16px;
+    left: 16px;
+}
+
+.icon--fav {
+    top: 16px;
+    right: 16px;
+}
+
+.card-content{
+  padding: 12px 16px 0;
+}
+
+.title-row{
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  margin-top: 8px;
+}
+
+.gender{ width:16px; height:16px; }
+
+.name {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 100%;
+  color: #06172C;
+}
+
+.meta-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6px;
+}
+
+.breed{
+  margin: 12px 0 0 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  color: #06172C99;
+}
+
+.distance{
+  position: absolute;
+  top: 481px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.distance__icon{ width:16px; height:16px; }
+
+.distance__text {
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 21px;
+   color: #06172C;
+   letter-spacing: 0;
+}
