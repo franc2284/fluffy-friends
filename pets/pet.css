@@ -110,3 +110,39 @@ body{
    color: #06172C;
    letter-spacing: 0;
 }
+
+.stats-row{
+  margin-top: 20px;
+  display: flex;
+  gap: 69px;
+  flex-wrap: wrap;
+}
+
+.stat-card{
+  width: 76px;
+  height: 64px;
+  border-radius: 8px;
+  background: #EBEDEF;
+  padding: 12px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-title{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1;
+  color: #06172C;
+  text-align: center;
+}
+
+.stat-value{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  color: #06172C;
+  text-align: center;
+}
